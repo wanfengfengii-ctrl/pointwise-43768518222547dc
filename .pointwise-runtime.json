@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "-m", "py_compile", "tv.py", "verify_tv.py", "demo_tv.py"]
+  ],
+  "verify": ["python3", "verify_tv.py"],
+  "demo": ["python3", "demo_tv.py"]
+}
